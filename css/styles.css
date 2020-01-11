@@ -8,7 +8,7 @@ body{
 }
 
 .container-fluid{
-  padding:3% 15%;
+  padding:3% 15% 10%;
     background-color: #ff4c68;
 }
 
@@ -20,11 +20,20 @@ h1{
   color:white;
 }
 
+h2{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
 .iphoneimg{
   margin-top:20px;
   transform: rotate(25deg);
   max-width: 60%;
   height:auto;
+  position: absolute;
+  right:30%;
 }
 
  .item{
@@ -60,7 +69,7 @@ h1{
   padding:0 18px;
 }
 
-p{
+.par{
   font-style: normal;
   color:#8f8f8f;
   text-align: center;
@@ -68,8 +77,87 @@ p{
 
 #features{
   padding: 7% 12%;
+  background-color: white;
+  position:relative;
+  z-index:1;
 }
 
 #title{
   color: #ffff;
+}
+
+
+/* Testimonials */
+.carousel-item{
+  padding:7% 15%;
+}
+
+#testimonials{  text-align: center;
+  background-color : #ff4c68;
+  color:#ffff;
+}
+
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin:5%;
+}
+
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-icons{
+  width:10%;
+  margin: 60px 20px 50px;
+}
+
+/* Pricing */
+
+.card{
+  text-align: center;
+}
+
+#pricing{
+  padding:100px;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+/* CTA */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+  color:white;
+  padding: 10% 5%;
+}
+
+.h3-cta{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3rem;
+  padding:0 22%;
+}
+
+#footer{
+  background-color: white;
+  text-align: center;
+  padding: 6%;
+}
+
+.pfoot{
+  font-family: 'Montserrat-Black', sans-serif;
+  padding:0 22%;
+  position:relative;
+  top:35px;
+}
+
+.ficons{
+  margin:0 10px;
 }
